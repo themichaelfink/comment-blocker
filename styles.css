@@ -1,0 +1,40 @@
+/* Generic selectors */
+#comments,
+.comments,
+.comment,
+.comment-thread,
+.comment-list,
+.comment-section,
+.comments-area,
+.comments-wrapper,
+.disqus-thread,
+#disqus_thread,
+#comment,
+#comment-section,
+#comment-thread,
+[data-testid*="comment"],
+[aria-label*="comment" i] {
+  display: none !important;
+}
+
+/* YouTube */
+ytd-comments,
+#comments.ytd-item-section-renderer {
+  display: none !important;
+}
+
+/* Reddit */
+shreddit-comment,
+faceplate-comment,
+[data-testid="comment"],
+[data-test-id="comments-page"] {
+  display: none !important;
+}
+
+/* HN forums - generic */
+.comtr,
+.comment-tree,
+.post-comments,
+.reply-list {
+  display: none !important;
+}
