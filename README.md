@@ -1,8 +1,8 @@
-## Comment Blocker
+# Comment Blocker
 
 A lightweight Chrome extension that hides comment sections across the web. Designed for people who want to read articles, documentation, and videos without being pulled into comment threads, outrage bait, or algorithmic noise. The extension works by detecting common comment containers and removing them from the page using CSS and DOM observation.
 
-# Why This Exists
+## Why This Exists
 
 The modern web is optimized for engagement, not clarity. Comment sections often introduce:
 - low-quality discourse
@@ -12,7 +12,7 @@ The modern web is optimized for engagement, not clarity. Comment sections often 
 
 This extension lets you experience the web more like the early internet: Content first. Noise optional.
 
-# Features
+## Features
 
 Current MVP functionality includes:
 - Hides common comment containers automatically
@@ -22,7 +22,7 @@ Current MVP functionality includes:
 - Global enable/disable toggle
 - Lightweight with minimal performance overhead
 
-# Usage
+## Usage
 
 Click the extension icon to open the control panel.
 Options:
@@ -31,7 +31,7 @@ Options:
 
 If a site is whitelisted, comments will appear normally.
 
-# License
+## License
 
 MIT License
 Use freely, modify freely.
